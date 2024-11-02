@@ -1,0 +1,131 @@
+*{
+    margin: 0;
+    padding: 0;
+
+}
+.contact{
+    position: relative;
+    background-color: black;
+    background-size: cover;
+    color: white;
+    padding: 10px 100px;
+}
+.content{
+    text-align: center;
+    margin-top: 10px;
+}
+.content h2{
+    font-weight: 500;
+    margin-top: 20px;
+    font-size: 36px ;
+}
+.content p{
+    font-weight: 300;
+    letter-spacing: 1px;
+    margin-top: 5px;
+}
+hr{
+    margin-top: 15px;
+ 
+}
+.cotainer{
+    display: flex;
+    position: relativ;
+    flex-direction: column;
+    margin-top: 10px;
+}
+
+.contact info .box {
+  position: relative;
+  display: flex;
+  padding: 20px 0;
+  justify-content: center;
+  align-items: center;
+}
+.box{
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+}
+.box .icon{
+    font-size: 30px;
+}
+.cotainer.box h3 p{
+    top: 10px;
+}
+
+ .icon{
+    width: 60px; 
+    height: 60px;
+    background-color: white;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    border-radius: 50px;
+    bottom: 10px;
+}
+
+.forms {
+    display: flex;
+    background-color: white;
+    color: black;
+    position: relative;
+    left: 500px;
+    bottom: 340px;
+    align-items: center;
+    margin-top: 10px;
+    width: 50%;
+    padding: 40px;
+}
+.forms h2{
+  text-align: center;
+}
+input{
+    width: 200px;
+    margin-top: 15px;
+    border: none;
+    border-bottom: 2px solid black;
+    outline: none;
+}
+label
+{
+position: relative;
+}
+textarea{
+    width: 200px;
+    margin-top: 15px;
+    border: none;
+    border-bottom: 2px solid black;
+    outline: none;
+    resize: none;
+}
+button{
+    border: none;
+    background-color: lightskyblue;
+    padding: 10px 10px;
+    letter-spacing: 1px;
+    width: 100px;
+    margin-top: 30px;
+    border-radius: 50px;
+
+}
+.iq ul{
+    display: flex;
+    position: relative;
+    bottom: 280px;
+    justify-content: center;
+}
+ul li a{
+    margin-left: 20px;
+    justify-content: center;
+}
+li i{
+    font-size: 30px;
+}
+ul p{
+    position: relative;
+    justify-content: flex-start;
+}
+a:hover{
+    color: skyblue;
+}
